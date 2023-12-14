@@ -6,4 +6,10 @@
     <string name="not_granted_msg">All the permissions are not granted…</string>
     <string name="request_msg">These permissions are required for this application.</string>
     <string name="click_me">Click Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="treatment">Treatment</string>
+    <string name="shop">Shop</string>
+    <string name="account">Account</string>
 </resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/home"
+        android:icon="@drawable/selector_home"
+        android:enabled="true"/>
+
+
+    <item
+        android:id="@+id/telemedicineGragment"
+        android:title="@string/treatment"
+        android:icon="@drawable/selector_treatment"/>
+
+    <item
+        android:id="@+id/treatmentFragment"
+        android:title="@string/shop"
+        android:icon="@drawable/selector_telemedicine"/>
+
+    <item
+        android:id="@+id/accountFragment"
+        android:title="@string/account"
+        android:icon="@drawable/selector_account"/>
+
+</menu>

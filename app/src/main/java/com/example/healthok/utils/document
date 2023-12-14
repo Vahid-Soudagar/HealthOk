@@ -1,0 +1,17 @@
+add the bottom navigation
+    to add bottom navigation
+        add the dependencies
+        create navigation graph
+            create a android resource directory in res named as "navigation"
+            create a xml file in navigation directory and named it "nav_graph"
+        add the navigation host or navigation container
+            add the fragment of nav host in xml of main activity
+        add destinations to graph
+            create fragments to add in the navigation in our case there are 4 fragments home, treatment,
+            telemedicine and account to the nav graph created previously
+        create menu and match destinations
+            create a new android resource directory in res named as "menu"
+            add a new menu resource file in menu directory with named "menu_bottom_navigation"
+            now create vector asset for each of the fragment
+use this resource for complete reference - https://developersbreach.com/bottom-navigation-view-with-navigation/
+

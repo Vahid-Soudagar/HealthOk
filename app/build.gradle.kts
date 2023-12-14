@@ -53,5 +53,10 @@ dependencies {
     implementation("androidx.activity:activity-ktx:1.8.1")
     implementation("androidx.fragment:fragment-ktx:1.6.2")
 
+//    easy permission
     implementation("com.vmadalin:easypermissions-ktx:1.0.0")
+
+// Navigation component
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
 }
