@@ -9,12 +9,12 @@
 
 
     <item
-        android:id="@+id/telemedicineGragment"
+        android:id="@+id/treatmentFragment"
         android:title="@string/treatment"
         android:icon="@drawable/selector_treatment"/>
 
     <item
-        android:id="@+id/treatmentFragment"
+        android:id="@+id/telemedicineFragment"
         android:title="@string/shop"
         android:icon="@drawable/selector_telemedicine"/>
 

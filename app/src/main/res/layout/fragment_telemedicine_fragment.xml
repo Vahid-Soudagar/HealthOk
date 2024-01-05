@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.main.TelemedicineFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_telemedicine_app_bar"
+            android:background="?attr/colorPrimary">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:id="@+id/fragment_telemedicine_tool_bar">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/fragment_telemedicine_image_back"
+                        android:src="@drawable/icon_arrow_bacl"/>
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="22sp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/fragment_telemedicine_image_cart"
+                        android:src="@drawable/icon_cart"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="15dp"/>
+
+
+                </LinearLayout>
+
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_telemedicine_searchview"
+            android:layout_below="@id/fragment_telemedicine_app_bar"
+            android:layout_margin="16dp"
+            android:background="@drawable/background_drawable_searchview"
+            app:queryHint="Search here"
+            app:iconifiedByDefault="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_telemedicine_searchview"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/lin1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_telemedicine_text_categories"
+                android:text="@string/categories"
+                android:textSize="20sp"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_telemedicine_text_see_all"
+                android:text="@string/see_all"
+                android:textColor="@color/primary"
+                android:textSize="18sp"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:gravity="end"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/horizontalRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_below="@id/lin1"
+            android:layout_margin="16dp"
+            tools:listitem="@layout/item_product_small"/>
+
+    </RelativeLayout>
+</ScrollView>

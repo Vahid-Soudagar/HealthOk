@@ -12,4 +12,13 @@
     <string name="treatment">Treatment</string>
     <string name="shop">Shop</string>
     <string name="account">Account</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="price">$14.58</string>
+    <string name="categories">Categories</string>
+    <string name="popular_product">Popular Product</string>
+    <string name="see_all">See all</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign UP?</string>
+    <string name="forget_password">Forget Password?</string>
 </resources>

@@ -15,3 +15,32 @@ add the bottom navigation
             now create vector asset for each of the fragment
 use this resource for complete reference - https://developersbreach.com/bottom-navigation-view-with-navigation/
 
+
+creating ui for tele medicince
+    start with the top app bar
+    for creating top app bar
+        create two vector asset named as back arrow and cart
+        add two image view and one text view using linear layout add all the three things back arrow in left and cart in right while
+        text in center
+    for creating search view
+        first create the background of search view
+            to create the background create a new drawable resource file and named it as "background_drawable_search_view" selecting
+            the root element as shape
+        add it below the app bar layout
+    for creating the categories part
+        category to add
+        1. medicine
+        2. First Aid
+        3. Vitamins and Supplements
+        4. Skin care
+        5. Women's health
+        6. Sports and Fitness
+        7. Hair Care
+        8. Dental care
+        9. Herbal
+        create a model class with name categories in model folder
+        create a layout in layout folder with named "item_product_small"
+        add the ui of the layout
+        add horizontal recycler view in telemedicine fragment
+        create adapter and demo data to add it into the telemedicine fragment
+    for creating popular products
